@@ -1,0 +1,139 @@
+.logo{
+    width: 70px;
+    height: 50px;
+    margin-left: 10px;
+}
+.one {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(215, 57%, 17%);
+    align-items: center;   
+    padding: 0 0 0 10px; 
+}
+.name{
+    color: white;
+    text-align: left;
+    font-weight: bolder;
+}
+ul{
+    list-style-type: none;
+    margin: 0 30px 0 0;
+    padding: 10px;
+    display: flex;
+    gap: 18px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logoname{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.two{
+    display: flex;
+    flex:1;
+    padding: 150px;
+    gap: 20px;
+}
+.scienceimage{
+    margin-top: 30px;
+    width:200px;
+    height: 200px;
+    border-radius: 10%;
+    border: 5px solid hsl(215, 57%, 17%);
+
+}
+
+.content {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:hsl(215, 57%, 17%);
+}
+
+.content a{
+    color: white;
+    background-color: hsl(215, 57%, 17%);
+    padding: 10px;
+    border-radius: 10%;
+    border: 3px solid white;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px 50px 150px;
+    background-color: hsl(217, 51%, 84%);
+    gap: 30px;
+}
+.grade{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    flex:1;
+}
+
+.select{
+    font-size: 30px;
+}
+.ninth, .tenth{
+    width: 100px;
+    height: 100px;
+    border: 10px solid hsl(215, 57%, 17%);
+    border-radius: 30%;
+}
+
+.ninthcontent, .tenthcontent {
+    font-size: 20px;
+    width: 300px;
+    height: auto;
+}
+
+.four {
+    padding: 150px;
+    display: flex;
+    gap: 20px;
+}
+.review{
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    border: 5px solid hsl(215, 57%, 17%);
+    border-radius: 20%;
+}
+
+.five{
+    font-size: 20px;
+    display:flex;
+    background-color: hsl(215, 57%, 17%);
+    color:hsl(217, 51%, 84%);
+    margin: 0 250px 0 250px;
+    padding: 30px 30px 20px 30px;
+    gap: 150px;
+    align-items: center;
+    border-radius: 3%;
+}
+
+.five a{
+    border-radius: 20%;
+    border: 3px solid hsl(217, 51%, 84%);
+    padding: 10px;
+}
+
+.six {
+    margin-top: 100px;
+    background-color: hsl(215, 57%, 17%);
+    padding: 20px;
+    color:hsl(217, 51%, 84%);
+    text-align: center;
+}
