@@ -1,0 +1,97 @@
+.logo{
+    width: 4.375rem;
+    height: 3.125rem;
+    margin-left: 0.625rem;
+}
+.one {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(215, 57%, 17%);
+    align-items: center;   
+    padding: 0 0 0 0.625rem; 
+}
+.name{
+    color: white;
+    text-align: left;
+    font-weight: bolder;
+}
+ul{
+    list-style-type: none;
+    margin: 0 1.875rem 0 0;
+    padding: 0.625rem;
+    display: flex;
+    gap: 1.125rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.logoname{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.two{
+    background-color: hsl(215, 57%, 17%);
+    padding: 0rem;
+    position: relative;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.313rem solid hsl(215, 57%, 17%);
+    border-radius: 5%;
+}
+
+.detailsform{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.content img{
+    width: 11.25rem;
+    height: 12.5rem;
+    margin-top: 2.813rem;
+    margin-left: 9.375rem;
+    border-radius: 10%;
+    border: 0.313rem solid hsl(217, 51%, 84%);
+}
+
+.content{
+    display: flex;
+}
+
+.two h2{
+    color: white;
+    font-size: 3.125rem;
+}
+
+label{
+    color: white;
+    font-size: 1.5rem;
+}
+
+input{
+    font-size: 1.25rem;
+}
+
+button{
+    font-size: 1.563rem;
+    border-radius: 20%;
+}
+
+.six {
+    margin-top: 6.25rem;
+    background-color: hsl(215, 57%, 17%);
+    padding: 1.25rem;
+    color:hsl(217, 51%, 84%);
+    text-align: center;
+}
