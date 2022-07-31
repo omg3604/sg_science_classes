@@ -54,13 +54,11 @@ a{
     justify-content: space-evenly;
 }
 .scienceimage{
-    
     margin-top: 1.875rem;
     width: 12.5rem;
     height: 12.5rem;
     border-radius: 10%;
     border: 5px solid hsl(215, 57%, 17%);
-
 }
 
 .content {
