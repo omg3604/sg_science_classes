@@ -8,44 +8,109 @@
     <link rel="stylesheet" href="registerstyle.css">
 </head>
 <body>
-    <div class="one">
-        <div class="logoname">
-            <img class="logo" src="sg logo.jpg" alt="SG science classes logo">
-            <h1 class="name">SG SCIENCE CLASSES</h1>
+    <div>
+        <div class="one">
+            <div class="logoname">
+                <img class="logo" src="sg logo.jpg" alt="SG science classes logo">
+                <h1 class="name">SG SCIENCE CLASSES</h1>
+            </div>
         </div>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-        </ul>
-    </div>
-
-    <div class="two">
-        <h2>Sign Up</h2>
-        <div class="content">
-            <form class="detailsform">
-                <label>Name : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" placeholder="Enter your Full Name"></label>
-                
-                <label>E-mail :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="email" placeholder="Enter your Email Address"></label>
-                
-                <label>Date of Birth :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <input type="date" placeholder="Enter your Date of Birth"></label>
-                
-                <label>Grade : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  <input type="number" placeholder="Enter yout grade (9 or 10) "></label>
-            
-                <label>Contact : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <input type="number" placeholder="Enter 10 digit phone number"></label>
-                
-                <label>Password : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="password" placeholder="Enter your Password"></label>
+        <nav class="navbar">
+            <ul>
+                <li><a  class="link" href="./index.html">Home</a></li>
+                <li><a class="link"  href="#">About</a></li>
+                <li><a class="link"  href="#">Services</a></li>
+                <li><a class="link"  href="#">Contact Us</a></li>
+            </ul>
+        </nav>
     
-                <label>Confirm Password : &nbsp; <input type="password" placeholder="Confirm your Password"></label>
-            </form>
-            <img src="./bulb.jpg" alt="image">
+        <div class="two">
+            <h2>Sign Up</h2>
+            <div class="content">
+                <table>
+                    <form class="detailsform">
+                        <tr>
+                            <td>
+                                <label for="name">Name : </label>
+                            </td>
+                            <td>
+                                <input id="name" type="text" placeholder="Enter your Full Name">
+                                <p id="namealert"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">E-mail :</label>
+                            </td>
+                            <td>
+                                <input id="email" type="email" placeholder="Enter your Email Address">
+                                <p id="emailalert"></p>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <label for="date">Date of Birth :</label>
+                            </td>
+                            <td>
+                                <input id="date" type="date" placeholder="Enter your Date of Birth">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <label for="grade">Grade :</label>
+                            </td>
+                            <td>
+                                <select id="grade" style="font-size: 1rem">
+                                    <option style="font-size: 1rem;" value="9">9th</option>
+                                    <option style="font-size: 1rem;" value="10">10th</option>
+                                </select>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <label for="contact">Contact : </label>
+                            </td>
+                            <td>
+                                <input id="contact" type="number" placeholder="Enter 10 digit phone number">
+                            </td>
+                        </tr>
+                         
+                        <tr>
+                            <td>
+                                <label for="pass">Password :</label>
+                            </td>
+                            <td>
+                                <input id="pass" type="password" placeholder="Enter your Password">
+                            </td>
+                        </tr>
+                         
+                        <tr>
+                            <td>
+                                <label for="confirmpass">Confirm Password :</label>
+                            </td>
+                            <td>
+                                <input id="confirmpasss" type="password" placeholder="Confirm your Password">
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+                <img src="./bulb.jpg" alt="image">
+            </div>
+            <div class="submitbutton">
+                <br><br>
+                <button type="submit">Submit</button>
+                <br><br>
+            </div>
+            <div class="already">
+                Already registered? &nbsp;<a href="./login.html" class="link">  Login in your account  </a>
+            </div>
         </div>
-        <div class="submitbutton">
-            <br><br>
-            <button type="submit">Submit</button>
-            <br><br>
+        <div class="six">
+            <div>Copyright © SG Science Classes 2022</div>
         </div>
-    </div>
-    <div class="six">
-        <div>Copyright © SG Science Classes 2022</div>
     </div>
 </body>
 </html>
