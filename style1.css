@@ -1,3 +1,4 @@
+
 .logo{
     width: 4rem;
     height: 3rem;
@@ -7,7 +8,9 @@
     position: sticky;
     top: 0px;
     display: flex;
+    align-self: stretch;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: hsl(215, 57%, 17%);
     align-items: center;   
     padding: 0 0 0 1rem; 
@@ -39,6 +42,10 @@ a{
 }
 
 .logoname{
+    flex-shrink: 1;
+    flex-grow:1;
+    flex-basis: content;
+    
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -179,6 +186,8 @@ a{
 }
 
 .navbar{
+    display: flex;
+    flex-wrap: wrap;
     position: sticky;
     top:79px;
     background-color: rgb(111, 174, 204);

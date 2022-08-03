@@ -1,23 +1,28 @@
+html{
+    font-size: 10px;
+}
+
 .logo{
-    width: 4rem;
-    height: 3rem;
-    margin-left: 1rem;
+    width: 6.6rem;
+    height: 5rem;
+    margin-left: 2rem;
 }
 .one {
     z-index: 1;
     position: sticky;
-    top:0px;
+    top:0rem;
     display: flex;
     justify-content: space-between;
     background-color: hsl(215, 57%, 17%);
     align-items: center;   
-    padding: 0 0 0 1rem; 
-    border-radius: 20px;
+    padding: 0.4rem; 
+    border-radius: 2rem;
 }
 .name{
     color: white;
     text-align: left;
     font-weight: bolder;
+    font-size: 3rem;
 }
 ul{
     list-style-type: none;
@@ -107,14 +112,14 @@ p a{
 .navbar{
     z-index: 1;
     position: sticky;
-    top:79px;
+    top:8rem;
     background-color: rgb(111, 174, 204);
     border-radius: 20px;
+    padding: 0.8rem;
 }
 
 .navbar li{
     list-style: none;
-    margin: 
 }
 
 .navbar ul{
