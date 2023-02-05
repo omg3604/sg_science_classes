@@ -60,12 +60,31 @@ a{
     gap: 20px;
     justify-content: space-evenly;
 }
+
+@media (max-width : 800px ){
+    .two{
+        padding: 4rem;
+    }
+}
+
 .scienceimage{
     margin-top: 1.875rem;
     width: 12.5rem;
     height: 12.5rem;
     border-radius: 10%;
     border: 5px solid hsl(215, 57%, 17%);
+}
+
+@media (max-width : 500px){
+    .scienceimage{
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+}
+@media (max-width : 300px){
+    .scienceimage{
+        display: none;
+    }
 }
 
 .content {
